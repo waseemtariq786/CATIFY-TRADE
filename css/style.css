@@ -477,3 +477,14 @@ footer a:hover {
 .gallery-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
 .gallery-grid img { width:100%; height:220px; object-fit:cover; border-radius:12px; }
 @media(max-width:600px) { .gallery-grid img { height:150px; } }
+
+
+/* Professional product gallery */
+.product-gallery { padding: 45px 7%; text-align: center; }
+.gallery-subtitle { color: #b8bdc8; margin-bottom: 25px; }
+.gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px; }
+.gallery-grid figure { margin: 0; background: #111c2a; border: 1px solid #29364a; border-radius: 12px; overflow: hidden; }
+.gallery-grid img { display: block; width: 100%; height: 230px; object-fit: cover; }
+.gallery-grid figcaption { color: #d6d6d6; padding: 13px 8px; font-weight: 600; }
+@media(min-width:800px) { .gallery-grid { grid-template-columns: repeat(3, minmax(0,1fr)); } }
+@media(max-width:480px) { .gallery-grid { gap: 10px; } .gallery-grid img { height: 150px; } .gallery-grid figcaption { font-size: 13px; } }

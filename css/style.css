@@ -11,7 +11,7 @@ html {
 body {
   font-family: Arial, sans-serif;
   background: #0b1220;
-  color: #ffffff;
+  color: #d6d6d6;
   line-height: 1.6;
 }
 
@@ -447,4 +447,14 @@ button:focus-visible {
 
 .whatsapp-float:hover {
   background: #20a568;
+}
+
+.contact a,
+footer a {
+  color: #d6d6d6;
+}
+
+.contact a:hover,
+footer a:hover {
+  color: #e0bd77;
 }

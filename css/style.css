@@ -458,3 +458,17 @@ footer a {
 footer a:hover {
   color: #e0bd77;
 }
+
+#contact {
+  background: #101a2a;
+  padding: 35px 7%;
+  border-radius: 12px;
+}
+
+#contact a {
+  color: #9aa3b2 !important;
+}
+
+#contact a:hover {
+  color: #c5a15d !important;
+}
